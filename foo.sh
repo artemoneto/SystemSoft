@@ -2,13 +2,13 @@
 
 #This script requires sudo to work properly
 
-#Downloading and isntalling Go lang necessary for building IPFS
+#Downloading and installing Go lang necessary for building IPFS
 snap install go --classic 	#requires sudo
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$GOPATH/bin
 source $HOME/.profile
 
-#isntalling git
+#installing git
 apt install git 		#requires sudo
 
 #Downloading and building IPFS
