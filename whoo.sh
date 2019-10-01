@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#Finding the length of media files requires ffmpeg library
+#To install it uncomment the following line and run this script with sudo
+#apt install ffmpeg
+
 (echo "Имя,Расширение,Время изменения,Размер,Длительность")>./files.xls #First string creation
 files()								#Function needed to run script recursively
 {
