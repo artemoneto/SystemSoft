@@ -13,7 +13,5 @@ apt install git 		#requires sudo
 
 #Downloading and building IPFS
 git clone https://github.com/ipfs/go-ipfs.git
-cp -r go /usr/local/ 		#requires sudo
-cp -r go-ipfs /usr/local/	#requires sudo	
 cd go-ipfs
 make install
